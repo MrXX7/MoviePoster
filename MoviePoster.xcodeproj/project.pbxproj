@@ -12,6 +12,7 @@
 		AD3072E0289BE94A0079ED35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3072DF289BE94A0079ED35 /* Assets.xcassets */; };
 		AD3072E3289BE94A0079ED35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3072E2289BE94A0079ED35 /* Preview Assets.xcassets */; };
 		AD3072EA289BEB600079ED35 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3072E9289BEB600079ED35 /* MovieRow.swift */; };
+		ADBAC2C1289C1D9100E62E0A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAC2C0289C1D9100E62E0A /* DetailView.swift */; };
 		ADE8CCD0289BEBC50049C950 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE8CCCF289BEBC50049C950 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		AD3072DF289BE94A0079ED35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3072E2289BE94A0079ED35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD3072E9289BEB600079ED35 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		ADBAC2C0289C1D9100E62E0A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		ADE8CCCF289BEBC50049C950 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			children = (
 				AD3072DB289BE9490079ED35 /* MoviePosterApp.swift */,
 				AD3072DD289BE9490079ED35 /* ContentView.swift */,
+				ADBAC2C0289C1D9100E62E0A /* DetailView.swift */,
 				AD3072E9289BEB600079ED35 /* MovieRow.swift */,
 				ADE8CCCF289BEBC50049C950 /* Movie.swift */,
 				AD3072DF289BE94A0079ED35 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				AD3072DE289BE9490079ED35 /* ContentView.swift in Sources */,
 				AD3072EA289BEB600079ED35 /* MovieRow.swift in Sources */,
 				ADE8CCD0289BEBC50049C950 /* Movie.swift in Sources */,
+				ADBAC2C1289C1D9100E62E0A /* DetailView.swift in Sources */,
 				AD3072DC289BE9490079ED35 /* MoviePosterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

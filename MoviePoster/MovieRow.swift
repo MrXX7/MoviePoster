@@ -17,7 +17,8 @@ struct MovieRow: View {
             .frame(width: 300, height: 300)
             Text(movie.movieName).fontWeight(.medium).font(.largeTitle)
             Text(movie.actorName).fontWeight(.medium)
-            Text(movie.directorName).fontWeight(.medium)
+            Text(movie.directorName).fontWeight(.medium).foregroundColor(.gray)
         }
     }
 }
+

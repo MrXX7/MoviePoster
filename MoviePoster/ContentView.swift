@@ -11,8 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
         List(movies) { movie in
-            MovieRow(movie: movie)
+            NavigationLink(destination: DetailView(movie: movie)) { MovieRow(movie: movie)
+             }
         }
+        
         .navigationTitle("Movies")
         }
     }
